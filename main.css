@@ -1,0 +1,63 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+#cabecalho{
+    background-color: #32CD32;
+}
+#menu-navegation .nav-link.active,
+.nav-servicos .nav-link.active{
+    background-color: #228B22;
+    color: #fff 
+}
+#menu-navegation .nav-link,
+.nav-servicos .nav-link{
+    color: #fff;
+}
+.nav-servicos .nav-link{
+    color: #00FA9A;
+}
+.logo-text{
+    font-family: "Bebas Neue", sans-serif;
+}
+.green-text{
+    color: #166e2c;
+}
+.light-green{
+    color: #98FF98;
+}
+.carousel .carousel-item img{
+    height: 55vh;
+    object-fit: contain;
+    padding-bottom: 23px;
+}
+#sobre img,
+#produtos img,
+#servicos img{
+    height: 400px;
+    object-fit: cover;
+}
+.carousel .carousel-item,
+#sobre{
+    background-color:#b3c4af;
+}
+#produtos{
+    background-color:#9dac9a;
+}
+#servicos{
+    background-color: #849182;;
+}
+#fale-conosco{
+    background-color: #d7ecd4;
+}
+#social-links{
+    list-style: none;
+    text-decoration: none;
+}
+#form textarea{
+    resize: none;
+}
+#form button{
+    background-color: #166e2c;
+    color: #fff;
+}
+
